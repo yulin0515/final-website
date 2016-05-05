@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>jQuery滑动相册_模板王</title>
+
+<link href="css/album-default.css" rel="stylesheet" type="text/css"/>
+<script src="js/jquery-1.10.2.js" type="text/javascript"></script>
+<script src="js/jquery.albumSlider.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+$(function(){
+	//纵向，默认，移动间隔2
+    $('div.albumSlider').albumSlider();
+    //横向设置
+    $('div.albumSlider-h').albumSlider({direction:'h',step:3});
+});
+</script>
+
+</head>
+<body>
+<!--#Include virtual="/top.inc"-->
+<h1>滑动相册展示</h1>
+<div class="albumSlider">
+  <div class="fullview"> <img src="images/b001.jpg" alt="" /> </div>
+  <div class="slider">
+    <div class="button movebackward" title="向上滚动"></div>
+    <div class="imglistwrap"><ul class="imglist">
+      <li><a href="images/b001.jpg"><img src="images/001.jpg" alt="" /></a></li>
+      <li><a href="images/b002.jpg"><img src="images/002.jpg" alt="" /></a></li>
+      <li><a href="images/b003.jpg"><img src="images/003.jpg" alt="" /></a></li>
+      <li><a href="images/b004.jpg"><img src="images/004.jpg" alt="" /></a></li>
+      <li><a href="images/b001.jpg"><img src="images/001.jpg" alt="" /></a></li>
+      <li><a href="images/b002.jpg"><img src="images/002.jpg" alt="" /></a></li>
+      <li><a href="images/b003.jpg"><img src="images/003.jpg" alt="" /></a></li>
+      <li><a href="images/b004.jpg"><img src="images/004.jpg" alt="" /></a></li>
+      <li><a href="images/b001.jpg"><img src="images/001.jpg" alt="" /></a></li>
+      <li><a href="images/b002.jpg"><img src="images/002.jpg" alt="" /></a></li>
+      <li><a href="images/b003.jpg"><img src="images/003.jpg" alt="" /></a></li>
+    </ul></div>
+    <div class="button moveforward" title="向下滚动"></div>
+  </div>
+</div>
+<br />
+<hr />
+<br />
+
+<div class="clearfix albumSlider-h">
+  <div class="fullview"> <img src="images/b001.jpg" alt="" /> </div>
+  <div class="slider">
+    <div class="button movebackward" title="向左滚动"></div>
+    <div class="imglistwrap"><ul class="imglist">
+      <li><a href="images/b001.jpg"><img src="images/001.jpg" alt="" /></a></li>
+      <li><a href="images/b002.jpg"><img src="images/002.jpg" alt="" /></a></li>
+      <li><a href="images/b003.jpg"><img src="images/003.jpg" alt="" /></a></li>
+      <li><a href="images/b004.jpg"><img src="images/004.jpg" alt="" /></a></li>
+      <li><a href="images/b001.jpg"><img src="images/001.jpg" alt="" /></a></li>
+      <li><a href="images/b002.jpg"><img src="images/002.jpg" alt="" /></a></li>
+      <li><a href="images/b003.jpg"><img src="images/003.jpg" alt="" /></a></li>
+      <li><a href="images/b004.jpg"><img src="images/004.jpg" alt="" /></a></li>
+      <li><a href="images/b001.jpg"><img src="images/001.jpg" alt="" /></a></li>
+      <li><a href="images/b002.jpg"><img src="images/002.jpg" alt="" /></a></li>
+      <li><a href="images/b003.jpg"><img src="images/003.jpg" alt="" /></a></li>
+    </ul></div>
+    <div class="button moveforward" title="向右滚动"></div>
+  </div>
+</div>
+<br />
+<div align="center">
+  <p>＊代码整理：<a href="http://www.mobanwang.com/"  target="_blank">模板王</a>　</p>
+</div>
+<!--#Include virtual="/bottom.inc"-->
+</body>
+</html>

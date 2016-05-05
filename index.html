@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Home</title>
+
+	<link href="css/default.css" rel="stylesheet">
+	<link href="css/default-small.css" rel="stylesheet" media="screen and (max-device-width: 1080px)" /> <!-- #### 移动设备 ####  -->
+	<link href="css/default-small.css" rel="stylesheet" media="screen and (max-width: 1080px)" /><!-- #### PC设备 ####  -->
+	
+	<link href="map/mapsed.css" rel="stylesheet">
+	<link href="map/map_onload.css" rel="stylesheet">
+	
+	<script src="http://maps.googleapis.com/maps/api/js?libraries=places&sensor=false"></script>
+	<script src="map/jquery-1.10.2.js"></script>
+	<script src="map/mapsed.js"></script>
+	<script src="map/map_onload.js"></script>
+
+</head>
+<body>
+
+    <div class="contanier">
+		
+		<!--############# 第1行 #############-->
+		<div id="content_line1">
+			<div id="large_memnu_list" class="nav">
+				<ul>
+					<li class="active"><a href="home.html">HomePage</a></li>
+					<li><a href="hotel.html">The Hotel</a></li>
+					<li><a href="rate.html">Rate&Availability</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+					<li class="buynow"><a href="rate.html">Book Now</a></li>
+				</ul>
+			</div>
+			
+		 	<div id="small_menu" class="nav">
+		 		<div style="width:40%; float:left;"><ul><li class="buynow"><a href="rate.html">Book Now</a></li></ul></div>
+		 		<div style="width:50%; float:left;text-align: right;"><a href="#" onclick="menu_change_state();"><img src="image/menu_list.png" width="60px" height="60px"></a></div>
+			</div>
+
+			<div id="small_menu_list">
+	 			<ul>
+	 				<li><a href="home.html">HomePage</a></li>
+					<li><a href="hotel.html">The Hotel</a></li>
+					<li><a href="rate.html">Rate&Availability</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+	 			</ul>
+	 		</div>	
+			
+		</div>
+		
+		<!--############# 第2行 #############-->
+		<div id="content_line2">
+			<div><span style="font-size: 2em;">Beloved Playa Mujeres</span></div>
+			<div><span>Be Loved With Beloved</span></div>
+			<div id="home_vedio" style="margin-top: 50px;">
+				<video src="image/Inclusive.mp4" autoplay="autoplay" loop="loop" width="600px"></video>
+			</div>
+			
+		</div>
+		
+		<div id="content_line_divider">
+			<span class="content_line_divider_text">Beloved Playa Mujeres</span>
+			<span class="content_line_divider_text">Beloved Playa Mujeres</span>
+			<span class="content_line_divider_text">Beloved Playa Mujeres</span>
+			<span class="content_line_divider_text">Beloved Playa Mujeres</span>
+			<span class="content_line_divider_text">Beloved Playa Mujeres</span>
+		</div>
+		
+		<!--############# 第3行 #############-->
+		<div id="content_line3">
+			<img id="home_photo_num1" title="copyright @Beloved Playa Mujeres" src="image/homepage1.jpg" />
+			
+			<div class="home_text_block">
+				<p id="home_p_block" style="font-size: 1.2em; color: white; font-family: Microsoft JhengHei; padding: 20px 50px;" >
+					YOUR PRIVATE GETAWAY IN CANCUN. 
+				</p>
+				<p style="font-size: 1.0em; color: white; font-family: Microsoft YaHei; margin: 10px 50px;" >
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+				<button id="home_p_block_button" type="button">BOOK YOUR STAY</button>
+			</div>
+		</div>
+		
+		<!--############# 第4行 #############-->
+		<div id="content_line4">			
+		
+			<div id="could_div_imagine1">
+				<div id="could_div_imagine1_level1">
+						<br/><br/>
+						<p style="font-size: 1.4em;">I COULD NOT IMAGINE A BETTER CHOICE</p>
+						<p style="font-size: 1.0em;">"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+				
+				<div id="could_div_imagine1_level3">&nbsp;</div>
+				
+				<div id="could_div_imagine1_level2">
+						<br/><br/>
+						<p style="font-size: 1.4em;">I COULD NOT IMAGINE A BETTER CHOICE</p>
+						<p style="font-size: 1.0em;">"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+				</div>
+			</div>		
+			<div id="could_div_imagine2">
+				<div id="could_div_imagine2_level1">
+						<p style="font-size: 1.4em;">I COULD NOT IMAGINE A BETTER CHOICE</p>
+						<p style="font-size: 1.0em;">"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+				</div>
+				
+				<div id="could_div_imagine1_level3">&nbsp;</div>
+				
+				<div id="could_div_imagine2_level2">
+					<img id="home_photo_num2" title="copyright @Beloved Playa Mujeres" src="image/homepage3.jpg" width="500px">
+				</div>
+			</div>		
+				
+		</div>
+		
+		<!--############# 第5行 #############-->
+		<div id="content_line5">
+			<div id="map_div_block">
+				<div id="map_div_block_left">
+					<div class="maps_points"><div id="custom_places" class="maps"></div></div>
+				</div>
+				<div id="map_div_block_right">
+					<div id="map_div_block_right_text">
+						<div><span style="font-size: 1.4em;">Beloved Playa Mujeres is located in Cancun,Mexico</span></div>
+						<div style="margin-top: 20px; margin-bottom: 20px;"><span style="font-size: 1.2em;">/</span></div>
+						<div><span style="font-size: 1.0em; font-style: italic;">Playa Mujeres QROO, 77400, Mexico</span></div>
+						<div style="margin-top: 40px;">
+							<a style="font-size: 1.4em; font-style: italic; color:#9dbbdf;text-decoration: underline;"> ANY QUESTIONS? Call Us At ‏‎+65-6823-2330</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!--############# 第6行 #############-->
+		<div id="content_line6">
+			<div class="foot-span">Created by Beloved Playa Mujeres</div>
+		</div>
+
+	</div>
+
+
+</body>
+<script type="text/javascript">
+function menu_change_state(){
+	if($("#small_menu_list").css('display')=="block"){
+		$("#small_menu_list").css('display',"none"); 
+		$("#home_vedio").css('display',"block"); 
+		
+	}else if($("#small_menu_list").css('display')=="none"){
+		$("#small_menu_list").css('display',"block"); 
+		$("#home_vedio").css('display',"none"); 
+	}else{
+		$("#small_menu_list").css('display',"none"); 
+	} 
+}
+</script>
+
+</html>
